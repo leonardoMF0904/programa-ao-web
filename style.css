@@ -1,0 +1,107 @@
+* {
+    margin: 100;
+    padding: 100;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #000000;
+    color: #F6F6F6;
+    text-align: center;
+}
+
+
+.cabecalho__marca__logo {
+    width: 5%;
+    height: auto;
+    
+}
+
+.cabecalho__marca__nome {
+    font-family: 'Russo One', sans-serif;
+    font-size: 2.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+    color: #3BFD22;
+}
+
+.cabecalho__menu {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.cabecalho__menu__link {
+    font-size: 1.5rem;
+    font-weight: 0;
+    text-align: center;
+    color: #3BFD22;
+    border: 1px solid #3BFD22;
+    padding: 18.5px 10px;
+    border-radius: 90px;
+    margin-right: 70px
+}
+
+.cabecalho__menu__link:hover {
+    background-color: #272727;
+    border-radius: 16px;
+    
+}
+
+
+.apresentacao__conteudo__titulo {
+    font-family: 'Russo One', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.titulo-destaque {
+    color: #3BFD22;
+    font-weight: 500;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 1.40rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify
+}
+
+.apresentacao__links__subtitulo {
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    font-size: 1.50rem;
+}
+
+.apresentacao__links__navegacao {
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #3BFD22;
+    padding: 21.5px 0;
+    border-radius: 8px;
+    font-weight: 700;
+    color: #F6F6F6;
+    text-align: center;
+ 
+}
+
+.apresentacao__links__navegacao:hover {
+    background-color: #272727;
+    border-radius: 16px;
+}
+
+.apresentacao__imagem {
+    display: block;
+    float: right; 
+    width: 58%; 
+    clear: both; 
+    margin-top: 20px; 
+}
+
+.apresentacao__links__navegacao__imagem {
+    width: 10%;
+    display: block; 
+    margin: 0 auto;
+
+}
